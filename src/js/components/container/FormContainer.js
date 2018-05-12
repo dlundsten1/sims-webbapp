@@ -21,7 +21,7 @@ class FormContainer extends Component {
                     text="Sök på person"
                     label="seo_title"
                     type="text"
-                    id="seo_title"
+                    id="seo_title "
                     value={seo_title}
                     handleChange={this.handleChange}
                 />
