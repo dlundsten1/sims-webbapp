@@ -2,10 +2,10 @@
   "name": "sims-webbapp",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server --open --mode development"
+    "start": "webpack-dev-server --open --mode development --content-base src --inline --history-api-fallback --hot  --progress --colors"
   },
   "keywords": [
     "reactjs"
@@ -13,8 +13,15 @@
   "author": "se-lundsten",
   "license": "ISC",
   "dependencies": {
+    "babel-plugin-react-html-attrs": "^2.1.0",
+    "bootstrap": "4.1.1",
+    "font-awesome": "4.7.0",
+    "history": "^1.17.0",
+    "jquery": "3.3.1",
+    "jquery.easing": "^1.4.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.2",
+    "react-router-dom": "^4.3.0-rc.3"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -28,6 +35,7 @@
     "react-dom": "^16.3.2",
     "webpack": "^4.8.2",
     "webpack-cli": "^2.1.3",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.4",
+    "browser-sync": "2.24.3"
   }
 }
