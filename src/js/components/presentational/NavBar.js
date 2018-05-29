@@ -23,8 +23,7 @@ export default class NavBar extends React.Component {
                                 <a className="nav-link js-scroll-trigger">Tävlingskalender</a>
                             </li>
                             </Link>
-                            <Link to ={"/"}>ASDASD</Link>
-                            <Link to ={"/individuals"}>
+                            <Link to ="/individuals">
                                 <li className="nav-item">
                                     <a className="nav-link js-scroll-trigger">Aktiva</a>
                                 </li>

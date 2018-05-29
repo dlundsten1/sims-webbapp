@@ -34,3 +34,7 @@ chrome-user-data
 *.iml
 .idea
 idea
+build
+.dist
+.build
+dist
